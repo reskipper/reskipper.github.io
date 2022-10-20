@@ -1,3 +1,3 @@
-# reskipper.github.io
+# 主页
 
-> 参考[scott.cgi的博客](https://scottcgi.github.io/)
+> 博客样式参考[scott.cgi](https://scottcgi.github.io/)
