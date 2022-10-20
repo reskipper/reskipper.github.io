@@ -1,3 +1,12 @@
-theme: jekyll-theme-minimal
-title: Crescent's homepage
-description: Lifelogging
+title      : Little Crescent
+lang       : zh
+description: 在读 · 分布式智能 · 移动通信
+copyright  : © 2022 - 2023 Crescent All Rights Reserved
+
+nav:
+ - name: 简介
+   link: /CV-cn/
+ - name: 大事记
+   link: /event-record/
+ - name: 小事记
+   link: /small-record/
