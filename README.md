@@ -12,8 +12,6 @@
 
 <p style="text-align:center;"> <img src="./assets/image/china_map.png" width="400px"> </p>
 
-<br>
-
 <p style="text-align:center;"> <img src="./assets/image/world_map.png" width="400px"> </p>
 
 <br>
@@ -22,8 +20,6 @@
 
 <p style="text-align:center;"><a href="https://www.zhihu.com/people/Cathode" target="_blank" alt="Zhihu" title="Zhihu"> <img src="./assets/image/zhihu-512.png" width="32px"/> </a>
 <a href="https://github.com/reskipper" target="_blank" alt="GitHub" title="GitHub"> <img src="./assets/image/github-512.png" width="32px"/> </a></p>
-
-<br>
 
 > 博客样式参考[]()<a target="_blank" href="https://scottcgi.github.io/">scott.cgi</a>
 >
