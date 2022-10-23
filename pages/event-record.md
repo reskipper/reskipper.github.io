@@ -7,6 +7,4 @@ lang: zh
 
 <h2 style="text-align:center;">2022年</h2>
 
-<br>
-
 <p style="text-align:center;font-weight:bold;">建站🥳</p>

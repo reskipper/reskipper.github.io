@@ -1,6 +1,7 @@
 
 from PIL import Image
 import feedparser
+import requests
 
 def transparent(input, output):
     """
@@ -55,6 +56,16 @@ def delete_between_str(str, start, end):
         str = str.replace(str[start_index:end_index + len(end)], "")
     return str
 
+def download_posters(url, path_id):
+    """
+    下载url jpg图片
+
+    :param url: 图片url
+    :param path: 图片序号
+    """
+    r = requests.get(url)
+    with open("./assets/image/posters/" + str(path_id) + ".jpg", "wb") as f:
+        f.write(r.content)
 
 def update_table():
     """
@@ -81,12 +92,23 @@ def update_table():
     """
     html += "</table>"
     html = html.replace("\n", "")  # 去除换行符
-    html = delete_between_str(html, "<p>", "</p>")  # 删除图片中的<p></p>
-    while True:  # 删除图片中的<br/>
+    html = delete_between_str(html, "<p>", "</p>")  # 删除str中的<p></p>
+    while True:  # 删除str中的多余空格
         if "  " in html:
             html = html.replace("  ", " ")
         else:
+            break    
+    # 将链接图片替换为本地图片
+    print('海报：')
+    while True:
+        start_index = html.find("src=\"https:")
+        end_index = html.find("/></a>", start_index)
+        if start_index == -1 or end_index == -1:
             break
+        src = html[start_index + 5:end_index - 2]
+        print(src)
+        download_posters(src, start_index)
+        html = html.replace(src, "./assets/image/posters/" + str(start_index) + ".jpg")
     # 将html写入README指定位置
     with open("./README.md", "r", encoding="utf-8") as f:
         readme = f.read()
