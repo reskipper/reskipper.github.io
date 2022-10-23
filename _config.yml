@@ -1,13 +1,13 @@
 title      : 小月牙
 lang       : zh
-# description: 在读 · 分布式智能 · 移动通信
+description: Little Crescent Blog
 copyright  : © 2022 - 2023 Crescent All Rights Reserved
 
 nav:
- - name: 简历
-   link: /CV-cn/
- - name: CV
-   link: /CV-en/
+#  - name: 简历
+#    link: /CV-cn/
+#  - name: CV
+#    link: /CV-en/
  - name: /年
    link: /event-record/
  - name: /月
