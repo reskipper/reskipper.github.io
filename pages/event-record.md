@@ -3,13 +3,10 @@
 permalink: /event-record/
 lang: zh
 ---
-<center>
+<h1 style="text-align:center;">大事</h1>
 
-# 大事
-
-## 2022年
+<h2 style="text-align:center;">2022年</h2>
 
 <br>
 
-**建站**🥳
-  
+<p style="text-align:center;font-weight:bold;">建站🥳</p>
