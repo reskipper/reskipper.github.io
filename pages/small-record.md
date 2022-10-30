@@ -9,6 +9,6 @@ lang: zh
 
 <h3 style="text-align:center;">十月</h3>
 
-<p style="text-align:center;">第一次收到审稿意见：大修🥲（21日）</p>
+<p style="text-align:center;">第一次收到审稿意见🥲（21日）</p>
 
 <p style="text-align:center;font-weight:bold;">建站🥳（20日）</p>
