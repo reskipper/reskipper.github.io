@@ -1,3 +1,8 @@
+---
+# description: 糍糍糍糍
+permalink: /poem/
+lang: zh
+---
 
 <h1 style="text-align:center;">诗</h1>
 <details>

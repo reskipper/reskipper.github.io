@@ -111,6 +111,8 @@ def update_table():
         html = html.replace(src, "./assets/image/posters/" + str(start_index) + ".jpg")
     # 表格居中
     html = html.replace("<table>", "<table style=\"text-align:center;\" align=\"center\">")
+    # 删除多余格
+    html = html.replace("<td> </td>", "")
     # 将html写入README指定位置
     with open("./README.md", "r", encoding="utf-8") as f:
         readme = f.read()
