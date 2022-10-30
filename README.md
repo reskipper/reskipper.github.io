@@ -1,7 +1,3 @@
----
-permalink: /event-record/
-lang: zh
----
 
 <h1 style="text-align:center;">主页</h1>
 
