@@ -8,6 +8,8 @@ nav:
 #    link: /CV-cn/
 #  - name: CV
 #    link: /CV-en/
+ - name: 主页
+   link: /README/
  - name: 诗
    link: /poem/
  - name: /年
