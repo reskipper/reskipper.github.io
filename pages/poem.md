@@ -6,11 +6,12 @@ lang: zh
 
 <h1 style="text-align:center;">诗</h1>
 <details>
-<summary style="text-align:center;"> <font size="4"> 《海河的解放桥》 </font> <br/> </summary>
+<summary style="text-align:center;"> <font size="4"> 《海河的解放桥》 </font> </summary>
+
+<br>
 
 <p style="text-align:center;"> 
 夜晚河流 </p>
-
 <p style="text-align:center;">
 是你的臂膀 </p>
 <p style="text-align:center;">
@@ -24,7 +25,7 @@ lang: zh
 <p style="text-align:center;">
 浪花呼唤我的名字 </p>
 <p style="text-align:right;">
-—— 糍糍</p>
+—— 糍糍&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
 <p style="text-align:right;">
-2022年10月30日</p>
+2022年10月30日&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
 </details>
